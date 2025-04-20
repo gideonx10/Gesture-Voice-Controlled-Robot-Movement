@@ -161,14 +161,14 @@ def voice_mode():
 
 # ========== MAIN MENU ==========
 def main():
-    print("Welcome to Hybrid Gesture + Voice Robot Control")
+    print("🤖 Welcome to Hybrid Gesture + Voice Robot Control")
     while True:
-        mode = input("Choose mode ( A-gesture / B-voice / Q-quit): ").strip().lower()
-        if mode == "A":
+        mode = input("Choose mode (gesture/voice/quit): ").strip().lower()
+        if mode == "gesture":
             gesture_mode()
-        elif mode == "B":
+        elif mode == "voice":
             voice_mode()
-        elif mode == "Q":
+        elif mode == "quit":
             break
         else:
             print("Invalid option.")
