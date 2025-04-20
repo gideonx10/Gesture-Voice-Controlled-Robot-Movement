@@ -13,7 +13,7 @@ load_dotenv()
 
 com_port = os.getenv("COM_PORT")
 baudrate = int(os.getenv("BAUDRATE"))
-token = os.getenv("GITHUB_TOKEN")
+token = os.getenv("LLM_API_KEY")
 endpoint = os.getenv("ENDPOINT")
 model = os.getenv("MODEL")
 
